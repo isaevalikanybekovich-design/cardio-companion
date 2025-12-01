@@ -52,7 +52,7 @@ serve(async (req) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'google/gemini-2.5-flash',
+        model: 'google/gemini-2.5',
         messages: [{
           role: 'system',
           content: 'Ты — русскоязычный врач-кардиолог с большим опытом. Составляй подробные, но понятные медицинские заключения.'

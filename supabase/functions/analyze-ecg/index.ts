@@ -96,7 +96,7 @@ serve(async (req) => {
               'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-              model: 'google/gemini-2.5-flash',
+              model: 'google/gemini-2.5-pro',
               messages: [{
                 role: 'user',
                 content: [
@@ -106,7 +106,7 @@ serve(async (req) => {
 {
   "heart_rate": "...",
   "rhythm": "синусовый / фибрилляция предсердий / ...",
-  "main_findings": ["ST-подъём в V2-V4", "блокада ЛНПГ", ...],
+  "main_findings": ["ST-подъём в V2-V4", "блокада ", ...],
   "diagnosis": "краткий диагноз",
   "urgency": "норма / требует внимания / срочная помощь"
 }`
