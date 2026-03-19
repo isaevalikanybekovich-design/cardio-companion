@@ -268,9 +268,9 @@ const StepOne = ({ ecgFile, setEcgFile, onNext }: StepOneProps) => {
                 variant="outline"
                 size="sm"
                 onClick={openGallery}
-                className="flex-1"
+                className="flex-1 h-8 text-xs px-2"
               >
-                <Image className="h-4 w-4 mr-2" />
+                <Image className="h-3 w-3 mr-1" />
                 Заменить
               </Button>
               <Button
@@ -278,9 +278,9 @@ const StepOne = ({ ecgFile, setEcgFile, onNext }: StepOneProps) => {
                 variant="outline"
                 size="sm"
                 onClick={openCamera}
-                className="flex-1"
+                className="flex-1 h-8 text-xs px-2"
               >
-                <Camera className="h-4 w-4 mr-2" />
+                <Camera className="h-3 w-3 mr-1" />
                 Новое фото
               </Button>
             </div>
