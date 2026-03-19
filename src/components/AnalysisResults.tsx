@@ -145,12 +145,12 @@ const AnalysisResults = ({ result, onNewAnalysis }: AnalysisResultsProps) => {
             </div>
           )}
 
-          <div className="flex gap-2 pt-6 border-t">
-            <Button size="sm" className="flex-1 h-9 text-xs sm:text-sm">
+          <div className="flex gap-2 pt-6 border-t justify-center">
+            <Button size="sm" className="h-9 text-xs sm:text-sm px-4">
               <FileDown className="mr-1.5 h-3.5 w-3.5" />
               Скачать PDF
             </Button>
-            <Button variant="outline" size="sm" onClick={onNewAnalysis} className="h-9 text-xs sm:text-sm">
+            <Button variant="outline" size="sm" onClick={onNewAnalysis} className="h-9 text-xs sm:text-sm px-4">
               <RefreshCw className="mr-1.5 h-3.5 w-3.5" />
               Новый анализ
             </Button>
