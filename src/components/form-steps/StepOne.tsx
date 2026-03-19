@@ -262,13 +262,13 @@ const StepOne = ({ ecgFile, setEcgFile, onNext }: StepOneProps) => {
             )}
 
             {/* Кнопка для замены файла */}
-            <div className="mt-3 flex gap-2">
+            <div className="mt-3 flex gap-2 justify-center">
               <Button
                 type="button"
                 variant="outline"
                 size="sm"
                 onClick={openGallery}
-                className="flex-1 h-8 text-xs px-2"
+                className="h-8 text-xs px-3"
               >
                 <Image className="h-3 w-3 mr-1" />
                 Заменить
@@ -278,7 +278,7 @@ const StepOne = ({ ecgFile, setEcgFile, onNext }: StepOneProps) => {
                 variant="outline"
                 size="sm"
                 onClick={openCamera}
-                className="flex-1 h-8 text-xs px-2"
+                className="h-8 text-xs px-3"
               >
                 <Camera className="h-3 w-3 mr-1" />
                 Новое фото
